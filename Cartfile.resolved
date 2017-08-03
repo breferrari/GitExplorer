@@ -1,0 +1,8 @@
+github "Alamofire/Alamofire" "4.5.0"
+github "Moya/Moya" "8.0.5"
+github "ReactiveCocoa/ReactiveSwift" "1.1.5"
+github "ReactiveX/RxSwift" "3.6.1"
+github "SVProgressHUD/SVProgressHUD" "2.1.2"
+github "antitypical/Result" "3.2.3"
+github "johnsundell/unbox" "2.5.0"
+github "rs/SDWebImage" "4.0.0"

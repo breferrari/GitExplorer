@@ -1,0 +1,579 @@
+{
+  "data": {
+    "search": {
+      "repositoryCount": 287904,
+      "edges": [
+        {
+          "cursor": "Y3Vyc29yOjE=",
+          "node": {
+            "id": "MDEwOlJlcG9zaXRvcnkyMjQ1ODI1OQ==",
+            "name": "Alamofire",
+            "nameWithOwner": "Alamofire/Alamofire",
+            "description": "Elegant HTTP Networking in Swift",
+            "stargazers": {
+              "totalCount": 24486
+            },
+            "forks": {
+              "totalCount": 4144
+            },
+            "owner": {
+              "login": "Alamofire",
+              "avatarUrl": "https://avatars3.githubusercontent.com/u/7774181?v=4"
+            }
+          }
+        },
+        {
+          "cursor": "Y3Vyc29yOjI=",
+          "node": {
+            "id": "MDEwOlJlcG9zaXRvcnkyMTcwMDY5OQ==",
+            "name": "awesome-ios",
+            "nameWithOwner": "vsouza/awesome-ios",
+            "description": "A curated list of awesome iOS ecosystem, including Objective-C and Swift Projects ",
+            "stargazers": {
+              "totalCount": 20857
+            },
+            "forks": {
+              "totalCount": 3406
+            },
+            "owner": {
+              "login": "vsouza",
+              "avatarUrl": "https://avatars2.githubusercontent.com/u/484656?v=4"
+            }
+          }
+        },
+        {
+          "cursor": "Y3Vyc29yOjM=",
+          "node": {
+            "id": "MDEwOlJlcG9zaXRvcnkzNjA2NjI0",
+            "name": "ReactiveCocoa",
+            "nameWithOwner": "ReactiveCocoa/ReactiveCocoa",
+            "description": "Streams of values over time",
+            "stargazers": {
+              "totalCount": 17578
+            },
+            "forks": {
+              "totalCount": 3207
+            },
+            "owner": {
+              "login": "ReactiveCocoa",
+              "avatarUrl": "https://avatars0.githubusercontent.com/u/3422977?v=4"
+            }
+          }
+        },
+        {
+          "cursor": "Y3Vyc29yOjQ=",
+          "node": {
+            "id": "MDEwOlJlcG9zaXRvcnkzMjU3ODQ2Nw==",
+            "name": "Charts",
+            "nameWithOwner": "danielgindi/Charts",
+            "description": "Beautiful charts for iOS/tvOS/OSX! The Apple side of the crossplatform MPAndroidChart.",
+            "stargazers": {
+              "totalCount": 15162
+            },
+            "forks": {
+              "totalCount": 2695
+            },
+            "owner": {
+              "login": "danielgindi",
+              "avatarUrl": "https://avatars1.githubusercontent.com/u/366926?v=4"
+            }
+          }
+        },
+        {
+          "cursor": "Y3Vyc29yOjU=",
+          "node": {
+            "id": "MDEwOlJlcG9zaXRvcnkyMDk2NTU4Ng==",
+            "name": "SwiftyJSON",
+            "nameWithOwner": "SwiftyJSON/SwiftyJSON",
+            "description": "The better way to deal with JSON data in Swift",
+            "stargazers": {
+              "totalCount": 15029
+            },
+            "forks": {
+              "totalCount": 2384
+            },
+            "owner": {
+              "login": "SwiftyJSON",
+              "avatarUrl": "https://avatars1.githubusercontent.com/u/8858017?v=4"
+            }
+          }
+        },
+        {
+          "cursor": "Y3Vyc29yOjY=",
+          "node": {
+            "id": "MDEwOlJlcG9zaXRvcnkyOTg4NzQ5OQ==",
+            "name": "open-source-ios-apps",
+            "nameWithOwner": "dkhamsing/open-source-ios-apps",
+            "description": ":iphone: Collaborative List of Open-Source iOS Apps",
+            "stargazers": {
+              "totalCount": 13824
+            },
+            "forks": {
+              "totalCount": 2356
+            },
+            "owner": {
+              "login": "dkhamsing",
+              "avatarUrl": "https://avatars0.githubusercontent.com/u/4723115?v=4"
+            }
+          }
+        },
+        {
+          "cursor": "Y3Vyc29yOjc=",
+          "node": {
+            "id": "MDEwOlJlcG9zaXRvcnk1MDQ0NzcyMA==",
+            "name": "swift-algorithm-club",
+            "nameWithOwner": "raywenderlich/swift-algorithm-club",
+            "description": "Algorithms and data structures in Swift, with explanations!",
+            "stargazers": {
+              "totalCount": 13435
+            },
+            "forks": {
+              "totalCount": 1919
+            },
+            "owner": {
+              "login": "raywenderlich",
+              "avatarUrl": "https://avatars1.githubusercontent.com/u/4722515?v=4"
+            }
+          }
+        },
+        {
+          "cursor": "Y3Vyc29yOjg=",
+          "node": {
+            "id": "MDEwOlJlcG9zaXRvcnkyMTY5NjMwMg==",
+            "name": "awesome-swift",
+            "nameWithOwner": "matteocrippa/awesome-swift",
+            "description": "A collaborative list of awesome swift resources. Feel free to contribute!",
+            "stargazers": {
+              "totalCount": 12477
+            },
+            "forks": {
+              "totalCount": 1658
+            },
+            "owner": {
+              "login": "matteocrippa",
+              "avatarUrl": "https://avatars2.githubusercontent.com/u/475463?v=4"
+            }
+          }
+        },
+        {
+          "cursor": "Y3Vyc29yOjk=",
+          "node": {
+            "id": "MDEwOlJlcG9zaXRvcnkyMDgyMjI5MQ==",
+            "name": "SwiftGuide",
+            "nameWithOwner": "ipader/SwiftGuide",
+            "description": "这份指南汇集了Swift语言主流学习资源，并以开发者的视角整理编排。http://dev.swiftguide.cn ",
+            "stargazers": {
+              "totalCount": 12052
+            },
+            "forks": {
+              "totalCount": 3030
+            },
+            "owner": {
+              "login": "ipader",
+              "avatarUrl": "https://avatars3.githubusercontent.com/u/373016?v=4"
+            }
+          }
+        },
+        {
+          "cursor": "Y3Vyc29yOjEw",
+          "node": {
+            "id": "MDEwOlJlcG9zaXRvcnk0MzU2ODgzMg==",
+            "name": "Perfect",
+            "nameWithOwner": "PerfectlySoft/Perfect",
+            "description": "Server-side Swift. The Perfect core toolset and framework for Swift Developers. (For mobile back-end development, website and API development, and more…)",
+            "stargazers": {
+              "totalCount": 11896
+            },
+            "forks": {
+              "totalCount": 827
+            },
+            "owner": {
+              "login": "PerfectlySoft",
+              "avatarUrl": "https://avatars1.githubusercontent.com/u/14945043?v=4"
+            }
+          }
+        },
+        {
+          "cursor": "Y3Vyc29yOjEx",
+          "node": {
+            "id": "MDEwOlJlcG9zaXRvcnkyODUxMzM5OA==",
+            "name": "Spring",
+            "nameWithOwner": "MengTo/Spring",
+            "description": "A library to simplify iOS animations in Swift.",
+            "stargazers": {
+              "totalCount": 11024
+            },
+            "forks": {
+              "totalCount": 1194
+            },
+            "owner": {
+              "login": "MengTo",
+              "avatarUrl": "https://avatars1.githubusercontent.com/u/1065452?v=4"
+            }
+          }
+        },
+        {
+          "cursor": "Y3Vyc29yOjEy",
+          "node": {
+            "id": "MDEwOlJlcG9zaXRvcnk0OTkxMDA5NQ==",
+            "name": "vapor",
+            "nameWithOwner": "vapor/vapor",
+            "description": "A server-side Swift web framework.",
+            "stargazers": {
+              "totalCount": 10307
+            },
+            "forks": {
+              "totalCount": 561
+            },
+            "owner": {
+              "login": "vapor",
+              "avatarUrl": "https://avatars1.githubusercontent.com/u/17364220?v=4"
+            }
+          }
+        },
+        {
+          "cursor": "Y3Vyc29yOjEz",
+          "node": {
+            "id": "MDEwOlJlcG9zaXRvcnkyMDU0MTc5NQ==",
+            "name": "SnapKit",
+            "nameWithOwner": "SnapKit/SnapKit",
+            "description": "A Swift Autolayout DSL for iOS & OS X",
+            "stargazers": {
+              "totalCount": 10295
+            },
+            "forks": {
+              "totalCount": 1041
+            },
+            "owner": {
+              "login": "SnapKit",
+              "avatarUrl": "https://avatars1.githubusercontent.com/u/7809696?v=4"
+            }
+          }
+        },
+        {
+          "cursor": "Y3Vyc29yOjE0",
+          "node": {
+            "id": "MDEwOlJlcG9zaXRvcnkzMzU2OTEzNQ==",
+            "name": "RxSwift",
+            "nameWithOwner": "ReactiveX/RxSwift",
+            "description": "Reactive Programming in Swift",
+            "stargazers": {
+              "totalCount": 10102
+            },
+            "forks": {
+              "totalCount": 1511
+            },
+            "owner": {
+              "login": "ReactiveX",
+              "avatarUrl": "https://avatars1.githubusercontent.com/u/6407041?v=4"
+            }
+          }
+        },
+        {
+          "cursor": "Y3Vyc29yOjE1",
+          "node": {
+            "id": "MDEwOlJlcG9zaXRvcnkyNTA1MDg0NA==",
+            "name": "Carthage",
+            "nameWithOwner": "Carthage/Carthage",
+            "description": "A simple, decentralized dependency manager for Cocoa",
+            "stargazers": {
+              "totalCount": 9798
+            },
+            "forks": {
+              "totalCount": 841
+            },
+            "owner": {
+              "login": "Carthage",
+              "avatarUrl": "https://avatars1.githubusercontent.com/u/9146792?v=4"
+            }
+          }
+        },
+        {
+          "cursor": "Y3Vyc29yOjE2",
+          "node": {
+            "id": "MDEwOlJlcG9zaXRvcnk3NDY5Nzk2Mw==",
+            "name": "Hero",
+            "nameWithOwner": "lkzhao/Hero",
+            "description": "Elegant transition library for iOS & tvOS",
+            "stargazers": {
+              "totalCount": 9683
+            },
+            "forks": {
+              "totalCount": 648
+            },
+            "owner": {
+              "login": "lkzhao",
+              "avatarUrl": "https://avatars1.githubusercontent.com/u/3359850?v=4"
+            }
+          }
+        },
+        {
+          "cursor": "Y3Vyc29yOjE3",
+          "node": {
+            "id": "MDEwOlJlcG9zaXRvcnkzMzQ4NjAxNg==",
+            "name": "Kingfisher",
+            "nameWithOwner": "onevcat/Kingfisher",
+            "description": "A lightweight, pure-Swift library for downloading and caching images from the web.",
+            "stargazers": {
+              "totalCount": 9127
+            },
+            "forks": {
+              "totalCount": 967
+            },
+            "owner": {
+              "login": "onevcat",
+              "avatarUrl": "https://avatars0.githubusercontent.com/u/1019875?v=4"
+            }
+          }
+        },
+        {
+          "cursor": "Y3Vyc29yOjE4",
+          "node": {
+            "id": "MDEwOlJlcG9zaXRvcnk1MTY0ODE3NA==",
+            "name": "30DaysofSwift",
+            "nameWithOwner": "allenwong/30DaysofSwift",
+            "description": "A self-taught project to learn Swift.",
+            "stargazers": {
+              "totalCount": 9060
+            },
+            "forks": {
+              "totalCount": 1661
+            },
+            "owner": {
+              "login": "allenwong",
+              "avatarUrl": "https://avatars0.githubusercontent.com/u/698982?v=4"
+            }
+          }
+        },
+        {
+          "cursor": "Y3Vyc29yOjE5",
+          "node": {
+            "id": "MDEwOlJlcG9zaXRvcnk0NDk5ODA5Mg==",
+            "name": "Aerial",
+            "nameWithOwner": "JohnCoates/Aerial",
+            "description": "Apple TV Aerial Screensaver for Mac",
+            "stargazers": {
+              "totalCount": 9017
+            },
+            "forks": {
+              "totalCount": 454
+            },
+            "owner": {
+              "login": "JohnCoates",
+              "avatarUrl": "https://avatars1.githubusercontent.com/u/967800?v=4"
+            }
+          }
+        },
+        {
+          "cursor": "Y3Vyc29yOjIw",
+          "node": {
+            "id": "MDEwOlJlcG9zaXRvcnkyMDQzMDMxNA==",
+            "name": "FlappySwift",
+            "nameWithOwner": "fullstackio/FlappySwift",
+            "description": "swift implementation of flappy bird. More at fullstackedu.com",
+            "stargazers": {
+              "totalCount": 8425
+            },
+            "forks": {
+              "totalCount": 2337
+            },
+            "owner": {
+              "login": "fullstackio",
+              "avatarUrl": "https://avatars2.githubusercontent.com/u/4064333?v=4"
+            }
+          }
+        },
+        {
+          "cursor": "Y3Vyc29yOjIx",
+          "node": {
+            "id": "MDEwOlJlcG9zaXRvcnkyMTc5Njk1NQ==",
+            "name": "Design-Patterns-In-Swift",
+            "nameWithOwner": "ochococo/Design-Patterns-In-Swift",
+            "description": "Design Patterns implemented in Swift",
+            "stargazers": {
+              "totalCount": 8329
+            },
+            "forks": {
+              "totalCount": 838
+            },
+            "owner": {
+              "login": "ochococo",
+              "avatarUrl": "https://avatars2.githubusercontent.com/u/3382607?v=4"
+            }
+          }
+        },
+        {
+          "cursor": "Y3Vyc29yOjIy",
+          "node": {
+            "id": "MDEwOlJlcG9zaXRvcnk0MTIxNTQzOQ==",
+            "name": "Material",
+            "nameWithOwner": "CosmicMind/Material",
+            "description": "Material Design library used to create beautiful applications.",
+            "stargazers": {
+              "totalCount": 8172
+            },
+            "forks": {
+              "totalCount": 841
+            },
+            "owner": {
+              "login": "CosmicMind",
+              "avatarUrl": "https://avatars1.githubusercontent.com/u/10069574?v=4"
+            }
+          }
+        },
+        {
+          "cursor": "Y3Vyc29yOjIz",
+          "node": {
+            "id": "MDEwOlJlcG9zaXRvcnkxODQ0MDU2Mw==",
+            "name": "PromiseKit",
+            "nameWithOwner": "mxcl/PromiseKit",
+            "description": "Promises for Swift & ObjC",
+            "stargazers": {
+              "totalCount": 7960
+            },
+            "forks": {
+              "totalCount": 689
+            },
+            "owner": {
+              "login": "mxcl",
+              "avatarUrl": "https://avatars2.githubusercontent.com/u/58962?v=4"
+            }
+          }
+        },
+        {
+          "cursor": "Y3Vyc29yOjI0",
+          "node": {
+            "id": "MDEwOlJlcG9zaXRvcnkyNjQ4MTgxNQ==",
+            "name": "animated-tab-bar",
+            "nameWithOwner": "Ramotion/animated-tab-bar",
+            "description": "RAMAnimatedTabBarController is a Swift module for adding animation to tabbar items. ",
+            "stargazers": {
+              "totalCount": 7441
+            },
+            "forks": {
+              "totalCount": 979
+            },
+            "owner": {
+              "login": "Ramotion",
+              "avatarUrl": "https://avatars3.githubusercontent.com/u/6028820?v=4"
+            }
+          }
+        },
+        {
+          "cursor": "Y3Vyc29yOjI1",
+          "node": {
+            "id": "MDEwOlJlcG9zaXRvcnkyNjEzMzk3OQ==",
+            "name": "firefox-ios",
+            "nameWithOwner": "mozilla-mobile/firefox-ios",
+            "description": "Firefox for iOS",
+            "stargazers": {
+              "totalCount": 7309
+            },
+            "forks": {
+              "totalCount": 1523
+            },
+            "owner": {
+              "login": "mozilla-mobile",
+              "avatarUrl": "https://avatars3.githubusercontent.com/u/22351667?v=4"
+            }
+          }
+        },
+        {
+          "cursor": "Y3Vyc29yOjI2",
+          "node": {
+            "id": "MDEwOlJlcG9zaXRvcnkzNTczMjIxNA==",
+            "name": "SwiftLint",
+            "nameWithOwner": "realm/SwiftLint",
+            "description": "A tool to enforce Swift style and conventions.",
+            "stargazers": {
+              "totalCount": 7262
+            },
+            "forks": {
+              "totalCount": 584
+            },
+            "owner": {
+              "login": "realm",
+              "avatarUrl": "https://avatars0.githubusercontent.com/u/7575099?v=4"
+            }
+          }
+        },
+        {
+          "cursor": "Y3Vyc29yOjI3",
+          "node": {
+            "id": "MDEwOlJlcG9zaXRvcnk3NjgzODAxNw==",
+            "name": "iina",
+            "nameWithOwner": "lhc70000/iina",
+            "description": "The modern video player for macOS.",
+            "stargazers": {
+              "totalCount": 6917
+            },
+            "forks": {
+              "totalCount": 499
+            },
+            "owner": {
+              "login": "lhc70000",
+              "avatarUrl": "https://avatars3.githubusercontent.com/u/8478049?v=4"
+            }
+          }
+        },
+        {
+          "cursor": "Y3Vyc29yOjI4",
+          "node": {
+            "id": "MDEwOlJlcG9zaXRvcnkyMDUwNjAwNA==",
+            "name": "Quick",
+            "nameWithOwner": "Quick/Quick",
+            "description": "The Swift (and Objective-C) testing framework.",
+            "stargazers": {
+              "totalCount": 6652
+            },
+            "forks": {
+              "totalCount": 609
+            },
+            "owner": {
+              "login": "Quick",
+              "avatarUrl": "https://avatars2.githubusercontent.com/u/8083968?v=4"
+            }
+          }
+        },
+        {
+          "cursor": "Y3Vyc29yOjI5",
+          "node": {
+            "id": "MDEwOlJlcG9zaXRvcnk0MzMzMDM3NA==",
+            "name": "Eureka",
+            "nameWithOwner": "xmartlabs/Eureka",
+            "description": "Elegant iOS form builder in Swift",
+            "stargazers": {
+              "totalCount": 6532
+            },
+            "forks": {
+              "totalCount": 673
+            },
+            "owner": {
+              "login": "xmartlabs",
+              "avatarUrl": "https://avatars0.githubusercontent.com/u/2227731?v=4"
+            }
+          }
+        },
+        {
+          "cursor": "Y3Vyc29yOjMw",
+          "node": {
+            "id": "MDEwOlJlcG9zaXRvcnkyMzAxMzI2OA==",
+            "name": "Moya",
+            "nameWithOwner": "Moya/Moya",
+            "description": "Network abstraction layer written in Swift.",
+            "stargazers": {
+              "totalCount": 6526
+            },
+            "forks": {
+              "totalCount": 695
+            },
+            "owner": {
+              "login": "Moya",
+              "avatarUrl": "https://avatars3.githubusercontent.com/u/13662162?v=4"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

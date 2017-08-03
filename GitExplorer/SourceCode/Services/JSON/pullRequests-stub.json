@@ -1,0 +1,368 @@
+{
+    "data": {
+      "repository": {
+        "pullRequests": {
+          "totalCount": 548,
+          "edges": [
+            {
+              "cursor": "Y3Vyc29yOnYyOpHOASRh6Q==",
+              "node": {
+                "title": "Add missing closing fenced code block.",
+                "body": "",
+                "url": "https://github.com/Alamofire/Alamofire/pull/3",
+                "author": {
+                  "avatarUrl": "https://avatars1.githubusercontent.com/u/838674?v=4",
+                  "login": "pwightman"
+                }
+              }
+            },
+            {
+              "cursor": "Y3Vyc29yOnYyOpHOASR2AA==",
+              "node": {
+                "title": "Close fenced code block",
+                "body": "",
+                "url": "https://github.com/Alamofire/Alamofire/pull/4",
+                "author": {
+                  "avatarUrl": "https://avatars2.githubusercontent.com/u/519433?v=4",
+                  "login": "kaishin"
+                }
+              }
+            },
+            {
+              "cursor": "Y3Vyc29yOnYyOpHOASR9Kw==",
+              "node": {
+                "title": "Add missing closing ticks to Swift block in README",
+                "body": "",
+                "url": "https://github.com/Alamofire/Alamofire/pull/5",
+                "author": {
+                  "avatarUrl": "https://avatars0.githubusercontent.com/u/40791?v=4",
+                  "login": "misfo"
+                }
+              }
+            },
+            {
+              "cursor": "Y3Vyc29yOnYyOpHOASSmHw==",
+              "node": {
+                "title": "Fix code block formatting",
+                "body": "missed a closing ```\n",
+                "url": "https://github.com/Alamofire/Alamofire/pull/6",
+                "author": {
+                  "avatarUrl": "https://avatars0.githubusercontent.com/u/635300?v=4",
+                  "login": "ryngonzalez"
+                }
+              }
+            },
+            {
+              "cursor": "Y3Vyc29yOnYyOpHOASUMBQ==",
+              "node": {
+                "title": "fixed wrong code syntax",
+                "body": "'''swift syntax do not need in this line.\n\nSigned-off-by: Kyungkoo kyungkoo.kang@yahoo.com\n",
+                "url": "https://github.com/Alamofire/Alamofire/pull/9",
+                "author": {
+                  "avatarUrl": "https://avatars3.githubusercontent.com/u/2021751?v=4",
+                  "login": "kyungkoo"
+                }
+              }
+            },
+            {
+              "cursor": "Y3Vyc29yOnYyOpHOASV97Q==",
+              "node": {
+                "title": "Default to HTTP method GET for Alamofire.request()",
+                "body": "This allows calling `Alamofire.request(URL)`. GET seems to be the most common request mode, so it makes sense to use it as a default. \n\nImplemented as a separate func because making `method` optional and unnamed would require re-ordering the params to avoid breaking existing implementations. I agree with having the request mode specified first anyway.\n\nAlso, added a test for it and updated the README.\n\nThanks for this great class!\n",
+                "url": "https://github.com/Alamofire/Alamofire/pull/12",
+                "author": {
+                  "avatarUrl": "https://avatars3.githubusercontent.com/u/1760802?v=4",
+                  "login": "dataxpress"
+                }
+              }
+            },
+            {
+              "cursor": "Y3Vyc29yOnYyOpHOASW+UQ==",
+              "node": {
+                "title": "Project and code reorganization",
+                "body": "Hello, Mattt. \n\nCongratulations for the excellent work you have been doing (in this and all your other projects). I would like to say thank you on my behalf and, I believe, on behalf of the whole community of developers! :-) \n\nAbout the Alamofire library, I think that sooner or later it will need to undergo a restructuring to facilitate the understanding, use and future development. Perhaps the best time is now, before start popping other pull requests. \n\nThis PR may be a starting point for this (assuming that I understood the development line correctly).\n\nWhat do you think?\n\nKind regards, \n\nVan\n",
+                "url": "https://github.com/Alamofire/Alamofire/pull/15",
+                "author": {
+                  "avatarUrl": "https://avatars3.githubusercontent.com/u/1707194?v=4",
+                  "login": "vmartinelli"
+                }
+              }
+            },
+            {
+              "cursor": "Y3Vyc29yOnYyOpHOASYZUA==",
+              "node": {
+                "title": "Remove unnecessary request",
+                "body": "It seems there is no need to create a request here.\n",
+                "url": "https://github.com/Alamofire/Alamofire/pull/18",
+                "author": {
+                  "avatarUrl": "https://avatars0.githubusercontent.com/u/1019875?v=4",
+                  "login": "onevcat"
+                }
+              }
+            },
+            {
+              "cursor": "Y3Vyc29yOnYyOpHOASZOcg==",
+              "node": {
+                "title": "Some lang polish",
+                "body": "Just had a brief look at the whole library. Great work! I learned quite a lot from it, thank you @mattt\n\nI did some polish for it, if you'd like to have a look:\n- Change some `var` to `let`.\n- Change `let data = xxx; if data {}` to `if let data = xxx {}`. In other part of the lib, optional binding is being used. It would be better to use it here as well.\n- Fix a space\n- Add `Alamofire.` to the connivence `request` method, making it seems like others.\n",
+                "url": "https://github.com/Alamofire/Alamofire/pull/20",
+                "author": {
+                  "avatarUrl": "https://avatars0.githubusercontent.com/u/1019875?v=4",
+                  "login": "onevcat"
+                }
+              }
+            },
+            {
+              "cursor": "Y3Vyc29yOnYyOpHOASZxPQ==",
+              "node": {
+                "title": "Fix Accept-Encoding header typo",
+                "body": "",
+                "url": "https://github.com/Alamofire/Alamofire/pull/21",
+                "author": {
+                  "avatarUrl": "https://avatars1.githubusercontent.com/u/1514149?v=4",
+                  "login": "romanroibu"
+                }
+              }
+            },
+            {
+              "cursor": "Y3Vyc29yOnYyOpHOASaMsA==",
+              "node": {
+                "title": "Fix an issue where a data tasks error is silently lost",
+                "body": "",
+                "url": "https://github.com/Alamofire/Alamofire/pull/23",
+                "author": {
+                  "avatarUrl": "https://avatars1.githubusercontent.com/u/44164?v=4",
+                  "login": "kylef"
+                }
+              }
+            },
+            {
+              "cursor": "Y3Vyc29yOnYyOpHOASaV1w==",
+              "node": {
+                "title": "Update to support the Xcode 6 Beta5 changes to Swift",
+                "body": "",
+                "url": "https://github.com/Alamofire/Alamofire/pull/24",
+                "author": {
+                  "avatarUrl": "https://avatars0.githubusercontent.com/u/3412692?v=4",
+                  "login": "troypayne"
+                }
+              }
+            },
+            {
+              "cursor": "Y3Vyc29yOnYyOpHOAScTww==",
+              "node": {
+                "title": "Fix compilation errors in Xcode 6 beta 5",
+                "body": "",
+                "url": "https://github.com/Alamofire/Alamofire/pull/26",
+                "author": {
+                  "avatarUrl": "https://avatars1.githubusercontent.com/u/1332828?v=4",
+                  "login": "sasikiran"
+                }
+              }
+            },
+            {
+              "cursor": "Y3Vyc29yOnYyOpHOASoh1g==",
+              "node": {
+                "title": "Fix HTTP header tests",
+                "body": "Didn’t compile in Beta 5. Changed ? to ! as the content type header\nmust be set.\n",
+                "url": "https://github.com/Alamofire/Alamofire/pull/30",
+                "author": {
+                  "avatarUrl": "https://avatars2.githubusercontent.com/u/912531?v=4",
+                  "login": "hpique"
+                }
+              }
+            },
+            {
+              "cursor": "Y3Vyc29yOnYyOpHOASqUdA==",
+              "node": {
+                "title": "Using join instead of reduce to compose preferred languages",
+                "body": "We can use join instead of reduce\n",
+                "url": "https://github.com/Alamofire/Alamofire/pull/31",
+                "author": null
+              }
+            },
+            {
+              "cursor": "Y3Vyc29yOnYyOpHOASv9qg==",
+              "node": {
+                "title": "Rearrange else-if in Request.init to fix iOS 7 fatal error.",
+                "body": "See my comments on [Alamofire Issue 29](https://github.com/Alamofire/Alamofire/issues/29) [here](https://github.com/Alamofire/Alamofire/issues/29#issuecomment-51516437).\n",
+                "url": "https://github.com/Alamofire/Alamofire/pull/34",
+                "author": {
+                  "avatarUrl": "https://avatars3.githubusercontent.com/u/1028127?v=4",
+                  "login": "jandrewmoore"
+                }
+              }
+            },
+            {
+              "cursor": "Y3Vyc29yOnYyOpHOAS0l6g==",
+              "node": {
+                "title": "Changed move data task type before download task during initialization o...",
+                "body": "...f Request object. This can fix #35 and #17. But I'm not very sure whether it will introduce new bug with download task under iOS 7 and OS X 10.9.\n\nLooks like under iOS 7, `NSURLSessionDataTask` object is wrongly treated as `NSURLSessionDownloadTask`. While in `NSURLSessionDataDelegate`'s `URLSession(session: NSURLSession!, dataTask: NSURLSessionDataTask!, didReceiveData data: NSData!)` method, `dataTask` in this callback is actually a `NSURLSessionDownloadTask` object, and the unwrap result to an `NSURLSessionDataTask` object is `nil`, which lead to `nil` response data.\n\nSo I moved `NSURLSessionDataTask` above `NSURLSessionDownloadTask` and data task is correctly recognized. \n\nBut I'm not very sure whether `NSURLSessionDownloadTask` object would be recognized as `NSURLSessionDataTask` under iOS 7 too. So this fix may be a new bug. \n",
+                "url": "https://github.com/Alamofire/Alamofire/pull/38",
+                "author": {
+                  "avatarUrl": "https://avatars0.githubusercontent.com/u/112048?v=4",
+                  "login": "venj"
+                }
+              }
+            },
+            {
+              "cursor": "Y3Vyc29yOnYyOpHOAS3YPA==",
+              "node": {
+                "title": "Skip response serializers for failed requests",
+                "body": "Can't find a reason to let response serializers handle failed requests. If it is intended then current JSON and plist serializers should be updated to respect lower level errors.\n",
+                "url": "https://github.com/Alamofire/Alamofire/pull/39",
+                "author": {
+                  "avatarUrl": "https://avatars1.githubusercontent.com/u/1752162?v=4",
+                  "login": "odnoletkov"
+                }
+              }
+            },
+            {
+              "cursor": "Y3Vyc29yOnYyOpHOAS5eVA==",
+              "node": {
+                "title": "Added the ability to add additional header fields to the request",
+                "body": "I need the ability to send an api token in the request header.  I'm not sure if this is the best approach, but for now this is working for me.\n",
+                "url": "https://github.com/Alamofire/Alamofire/pull/40",
+                "author": {
+                  "avatarUrl": "https://avatars2.githubusercontent.com/u/678043?v=4",
+                  "login": "shawnzizzo"
+                }
+              }
+            },
+            {
+              "cursor": "Y3Vyc29yOnYyOpHOAS8raA==",
+              "node": {
+                "title": "Adds an NSURLRequest-based request convenience method",
+                "body": "Adds a request convenience method that accepts a custom NSURLRequest.\n",
+                "url": "https://github.com/Alamofire/Alamofire/pull/41",
+                "author": {
+                  "avatarUrl": "https://avatars3.githubusercontent.com/u/1234600?v=4",
+                  "login": "measuredweighed"
+                }
+              }
+            },
+            {
+              "cursor": "Y3Vyc29yOnYyOpHOAS9dLg==",
+              "node": {
+                "title": "Made typealias for AF public",
+                "body": "Without this, the typealias is confined to the target that the Alamofire.swift file is included in, so you couldn't use it in, say, unit tests or something. \n",
+                "url": "https://github.com/Alamofire/Alamofire/pull/42",
+                "author": {
+                  "avatarUrl": "https://avatars3.githubusercontent.com/u/498212?v=4",
+                  "login": "ashfurrow"
+                }
+              }
+            },
+            {
+              "cursor": "Y3Vyc29yOnYyOpHOAS/Pag==",
+              "node": {
+                "title": "Rework tests",
+                "body": "- Removed default arg of User's home directory\n- Moved test `100.json` file to `Library/Caches` directory\n- Pulled test classes out of extensions\n- Fixed 100.json test\n- Fixed bugs in empty data handling for JSON\n\nYou probably want to pick a better `NSError` domain.\n",
+                "url": "https://github.com/Alamofire/Alamofire/pull/46",
+                "author": {
+                  "avatarUrl": "https://avatars3.githubusercontent.com/u/136101?v=4",
+                  "login": "mxswd"
+                }
+              }
+            },
+            {
+              "cursor": "Y3Vyc29yOnYyOpHOATDFHQ==",
+              "node": {
+                "title": "Compatibility with XCode 6 Beta 6",
+                "body": "Fixed issue https://github.com/Alamofire/Alamofire/issues/47.\n",
+                "url": "https://github.com/Alamofire/Alamofire/pull/48",
+                "author": {
+                  "avatarUrl": "https://avatars2.githubusercontent.com/u/6942160?v=4",
+                  "login": "Dschee"
+                }
+              }
+            },
+            {
+              "cursor": "Y3Vyc29yOnYyOpHOATJhLw==",
+              "node": {
+                "title": "Fixed issues with B6",
+                "body": "",
+                "url": "https://github.com/Alamofire/Alamofire/pull/49",
+                "author": {
+                  "avatarUrl": "https://avatars0.githubusercontent.com/u/3412692?v=4",
+                  "login": "troypayne"
+                }
+              }
+            },
+            {
+              "cursor": "Y3Vyc29yOnYyOpHOATJjEw==",
+              "node": {
+                "title": "Serialize only when there isn't any network error",
+                "body": "Hi!\nIf you use serialization methods like `.responseJSON()` and any network error happens (like wrong url, canceling, whatever), the `error` parameter contains serialization error. But it should be the network error.\nI've fixed it,  take a look please.\n",
+                "url": "https://github.com/Alamofire/Alamofire/pull/50",
+                "author": {
+                  "avatarUrl": "https://avatars1.githubusercontent.com/u/1527181?v=4",
+                  "login": "persidskiy"
+                }
+              }
+            },
+            {
+              "cursor": "Y3Vyc29yOnYyOpHOATSlFg==",
+              "node": {
+                "title": "Merge",
+                "body": "",
+                "url": "https://github.com/Alamofire/Alamofire/pull/52",
+                "author": {
+                  "avatarUrl": "https://avatars1.githubusercontent.com/u/3182449?v=4",
+                  "login": "rynecheow"
+                }
+              }
+            },
+            {
+              "cursor": "Y3Vyc29yOnYyOpHOATZc+w==",
+              "node": {
+                "title": "Update from Alamofire:master",
+                "body": "Please ignore this. Sorry. I was trying Github's new pull request UI.\n",
+                "url": "https://github.com/Alamofire/Alamofire/pull/59",
+                "author": {
+                  "avatarUrl": "https://avatars2.githubusercontent.com/u/912531?v=4",
+                  "login": "hpique"
+                }
+              }
+            },
+            {
+              "cursor": "Y3Vyc29yOnYyOpHOATZhFA==",
+              "node": {
+                "title": "Adding a .gitignore",
+                "body": "Adding a .gitignore file that hides xcuserdata, which shows up as (untra...\n",
+                "url": "https://github.com/Alamofire/Alamofire/pull/60",
+                "author": {
+                  "avatarUrl": "https://avatars0.githubusercontent.com/u/3412692?v=4",
+                  "login": "troypayne"
+                }
+              }
+            },
+            {
+              "cursor": "Y3Vyc29yOnYyOpHOATZ8Bg==",
+              "node": {
+                "title": "Update README",
+                "body": "JSON does not have option since https://github.com/Alamofire/Alamofire/commit/9f7c36531d6a23ab8b5bb3f456fb7a7c79370d65\n\nNot sure if this was intended and/or permanent but in the mean time, it would be great to update the doc. I searched quite a bit and the actual compile error is not really helpful.\n",
+                "url": "https://github.com/Alamofire/Alamofire/pull/61",
+                "author": {
+                  "avatarUrl": "https://avatars3.githubusercontent.com/u/390071?v=4",
+                  "login": "mdarveau"
+                }
+              }
+            },
+            {
+              "cursor": "Y3Vyc29yOnYyOpHOATiEHA==",
+              "node": {
+                "title": "Fix the URL written to the cURL debug string",
+                "body": "The URL was being output as `\"Optional(http://domain.com)\"` instead of `\"http://domain.com\"`.\n",
+                "url": "https://github.com/Alamofire/Alamofire/pull/66",
+                "author": {
+                  "avatarUrl": "https://avatars3.githubusercontent.com/u/106738?v=4",
+                  "login": "rkeniger"
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
