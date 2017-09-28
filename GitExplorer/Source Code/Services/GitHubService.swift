@@ -9,7 +9,7 @@ class GitHubService {
     
     class func queryRepositories(language: String, cursor: String?, completion: @escaping CompletionRepository) {
         
-        let gitHub = MoyaProvider<GitHub>(endpointClosure: GitHubClosure)
+        let gitHub = MoyaProvider<GitHub>()
         
         gitHub.request(.repositories(language: language, cursor: cursor)) { (result) in
             switch result {
@@ -35,7 +35,7 @@ class GitHubService {
     
     class func queryPullRequests(owner: String, name: String, cursor: String?, completion: @escaping CompletionPullRequest) {
         
-        let gitHub = MoyaProvider<GitHub>(endpointClosure: GitHubClosure)
+        let gitHub = MoyaProvider<GitHub>()
         
         gitHub.request(.pullRequests(owner: owner, name: name, cursor: cursor)) { (result) in
             switch result {

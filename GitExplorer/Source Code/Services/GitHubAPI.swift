@@ -64,17 +64,16 @@ fileprivate struct GitHubAPI {
     
 }
 
-let GitHubClosure = { (target: GitHub) -> Endpoint<GitHub> in
-    let defaultEndpoint = MoyaProvider.defaultEndpointMapping(for: target)
-    return defaultEndpoint.adding(newHTTPHeaderFields: ["Authorization": "bearer \(GitHubAPI.Config.accessToken)"])
-}
-
 enum GitHub {
     case repositories(language: String, cursor: String?)
     case pullRequests(owner: String, name: String, cursor: String?)
 }
 
 extension GitHub: TargetType {
+    var headers: [String : String]? {
+        return ["Authorization": "bearer \(GitHubAPI.Config.accessToken)"];
+    }
+    
     var baseURL: URL {
         return URL(string: GitHubAPI.Config.endPoint)!
     }
@@ -119,6 +118,10 @@ extension GitHub: TargetType {
     }
     
     var task: Task {
-        return .request
+        guard let parameters = parameters else {
+            return .requestPlain
+        }
+        
+        return .requestParameters(parameters: parameters, encoding: parameterEncoding)
     }
 }

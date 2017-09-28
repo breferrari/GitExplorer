@@ -182,7 +182,7 @@
 			isa = PBXGroup;
 			children = (
 				2C2C98771F239E7D00C3BB9C /* Resources */,
-				2C2C98761F239E4A00C3BB9C /* SourceCode */,
+				2C2C98761F239E4A00C3BB9C /* Source Code */,
 				2C2C987B1F239ED800C3BB9C /* Supporting Files */,
 				2C2C98461F2398C800C3BB9C /* AppDelegate.swift */,
 			);
@@ -209,7 +209,7 @@
 			path = Controllers;
 			sourceTree = "<group>";
 		};
-		2C2C98761F239E4A00C3BB9C /* SourceCode */ = {
+		2C2C98761F239E4A00C3BB9C /* Source Code */ = {
 			isa = PBXGroup;
 			children = (
 				2C2C98751F239DC300C3BB9C /* Controllers */,
@@ -217,7 +217,7 @@
 				2C2C98841F23A10500C3BB9C /* Services */,
 				2C2C98801F23A0DC00C3BB9C /* Utils */,
 			);
-			path = SourceCode;
+			path = "Source Code";
 			sourceTree = "<group>";
 		};
 		2C2C98771F239E7D00C3BB9C /* Resources */ = {
@@ -456,12 +456,13 @@
 					2C2C98421F2398C800C3BB9C = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = HATQPXT843;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					2C2C98561F2398C800C3BB9C = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = HATQPXT843;
-						LastSwiftMigration = 0830;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 2C2C98421F2398C800C3BB9C;
 					};
@@ -751,7 +752,9 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bferrari.GitExplorer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -770,7 +773,9 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bferrari.GitExplorer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -792,7 +797,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "GitExplorerTests/GitExplorerTests-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GitExplorer.app/GitExplorer";
 			};
 			name = Debug;
@@ -813,7 +819,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.bferrari.GitExplorerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "GitExplorerTests/GitExplorerTests-Bridging-Header.h";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GitExplorer.app/GitExplorer";
 			};
 			name = Release;
